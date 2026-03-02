@@ -87,6 +87,57 @@ else:
 
 #-----------------------------------------
 
+isim1 = "ahmet"
+isim2 = "mehmet"
+
+print(type(isim2))
+
+#----
+
+ters = "GALATASARAY sk"
+
+print(ters.swapcase())
+
+#----
+
+#çlışmıyor, regex ile yeniden kodla
+metin = "merhaba amk beyinsizi tam bir yarrağa benziyorsun oç"
+yasakli = ("yarrak", "oç")
+for i in yasakli:
+    metin = metin.replace(i, "")
+print(metin)
+
+#------
+
+metin = "merhaba ben hic kimseyim, sen kimsin kendimi tanıtmadan seni tanımaya calışmak gibi bir hareket yapıyorum evet begenmediysen siktir git"
+
+if "siktir" in metin.split():
+    print("kufur var")
+
+
+liste = ["mavi", "kırmızı", "sarı", "yeşil"]
+print(liste[0])
+liste[2]="gri" #ikinci indexi gri ile degiştirir
+# print(liste)
+liste[0:3] = [] #sıfırdan üce kadar siler. ücü almaz yani sıfırdan üce kadar
+print(liste)
+
+
+
+yas = 17
+
+if yas<18:
+    print("yaşın tutmuyor, kayboll")
+else:
+    print("yaşın tutuyor")
+
+
+
+
+x = 50
+y = 5
+x+=y
+print(y)
 
 
 
