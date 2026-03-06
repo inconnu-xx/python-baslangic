@@ -73,6 +73,21 @@ su_hesapla(kilo_al)
 # ----------------------
 
 
+def toplama(x, y):
+    # islem = x + y
+    return x + y
+
+a = toplama(5, 5)
+b = 10 
+
+print(a + b)
+
+
+#islemi yorum satırından cıkarıp return yerine print toplama yazsaydık
+#printin sonucu fonksiyonun dışındaki değişkene atanamazdı bu yüzden 
+#return ile değerimizi dış dünyaya yollayarak kullanabiliriz. 
+
+
 
 
 
