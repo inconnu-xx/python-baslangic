@@ -87,6 +87,23 @@ print(a + b)
 #printin sonucu fonksiyonun dışındaki değişkene atanamazdı bu yüzden 
 #return ile değerimizi dış dünyaya yollayarak kullanabiliriz. 
 
+#-----------------------
+
+
+def kullaniici_bilgileri(ad, soyad, yas, meslek="işsiz"):
+    print(f"adınız: {ad}\nsoyadınız: {soyad}\nyasiniz: {yas}\nmesleğiniz: {meslek}")
+    print("_"*30)
+
+kullaniici_bilgileri("ahmo", "ışık", "20")
+
+
+# def fonksiyonlarının parametrelerine yukarıdaki gibi varyasılan değer atayabiliriz
+# yazdırırken değer vermezsek, varsayılan değer yazdırılır
+# yalnız bu varsayılan değerli parametrelerin en sonda olması gerekir, sayısı farketmez
+
+#-----------------------
+
+
 
 
 
