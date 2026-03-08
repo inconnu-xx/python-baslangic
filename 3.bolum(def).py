@@ -104,7 +104,21 @@ kullaniici_bilgileri("ahmo", "ışık", "20")
 #-----------------------
 
 
+Yerel değişken (fonksiyonun içindeki) dışarıdaki kodda kullanılamaz. Global değişken (tüm kodda kullanılabilen değişken) fonksiyonun içinde kullanılabilir. Örn. yerel değişken yoksa ve fonksiyonun içinden global bir değişken  çağrılırsa ozaman global değişkenin değeri yazdırılır. 
 
+a = 10
+
+def degisken():
+    print(a)
+
+degisken()
+
+Örnekte global değişkenin yerelde kullanım şekli vardır. Değişkenin değerini yerelde değiştirmek için ise printten önce:
+
+global a
+a = 30
+
+Artık değer değişmiştir.
 
 
 
