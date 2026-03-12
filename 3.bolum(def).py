@@ -104,7 +104,7 @@ kullaniici_bilgileri("ahmo", "ışık", "20")
 #-----------------------
 
 
-Yerel değişken (fonksiyonun içindeki) dışarıdaki kodda kullanılamaz. Global değişken (tüm kodda kullanılabilen değişken) fonksiyonun içinde kullanılabilir. Örn. yerel değişken yoksa ve fonksiyonun içinden global bir değişken  çağrılırsa ozaman global değişkenin değeri yazdırılır. 
+#Yerel değişken (fonksiyonun içindeki) dışarıdaki kodda kullanılamaz. Global değişken (tüm kodda kullanılabilen değişken) fonksiyonun içinde kullanılabilir. Örn. yerel değişken yoksa ve fonksiyonun içinden global bir değişken  çağrılırsa ozaman global değişkenin değeri yazdırılır. 
 
 a = 10
 
@@ -113,12 +113,42 @@ def degisken():
 
 degisken()
 
-Örnekte global değişkenin yerelde kullanım şekli vardır. Değişkenin değerini yerelde değiştirmek için ise printten önce:
+#Örnekte global değişkenin yerelde kullanım şekli vardır. Değişkenin değerini yerelde değiştirmek için ise printten önce:
 
 global a
 a = 30
 
-Artık değer değişmiştir.
+#Artık değer değişmiştir.
+
+
+#-----------------------------------------------------------------------
+
+
+sozluk = {"apple":"elma", "isim":"fatma", "yas":"25"}
+
+# print(sozluk["isim"])
+
+#sözlükler de listeler gibidir, key ve value bir degerdir bunu ölcmek icin len kullanılabilir
+
+for i,j in sozluk.items():
+    print(i, j)
+
+# sözlüğü for ile yazdıracaksak key ve value icin iki değer aldırmalyız i, j 
+# tüm elementleri yazdırmak icinde .items kullanmalıyız
+
+
+#---------------------
+
+
+
+
+
+
+
+
+
+
+
 
 
 
