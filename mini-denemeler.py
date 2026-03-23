@@ -139,7 +139,12 @@ y = 5
 x+=y
 print(y)
 
+#--------------------
 
+protein = {"Yumurta" : "6.5 gr protein", "Yoğurt" : "1.5 gr protein", "Fıstık ezmesi" : "5 gr protein"}
+yiyecek = input("gıda ismi giriniz: ").capitalize()
+
+print(yiyecek, ":", protein[yiyecek])
 
 
 
