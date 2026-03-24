@@ -146,6 +146,7 @@ yiyecek = input("gıda ismi giriniz: ").capitalize()
 
 print(yiyecek, ":", protein[yiyecek])
 
+#sözlüğü yazdırınca valu yazdırılır. buna göre proteini yazdırırsak protein değerini cıktı verir
 
 
 
