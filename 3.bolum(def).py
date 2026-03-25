@@ -140,7 +140,12 @@ for i,j in sozluk.items():
 #---------------------
 
 
+protein = {"yumurta" : "6.5 gr protein", "yoğurt" : "1.5 gr protein", "fıstık ezmesi" : "5 gr protein"}
+yiyecek = input("gıda ismi giriniz: ").capitalize
 
+print(yiyecek, ":", protein.get(yiyecek, "aradığınız takım listede yok..."))
+
+#get ikili fonksiyondur, if işlevi görür. ilk parametre var ise ikinci parametre yok ise çıktı verir. get ikili değer alan bir fonksiyondur.
 
 
 
